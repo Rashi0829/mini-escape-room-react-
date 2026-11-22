@@ -1,0 +1,68 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game-room {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+.game-room h1 {
+  font-size: 38px;
+  color: #c084fc;
+  margin-bottom: 20px;
+}
+
+.game-room h2 {
+  margin: 20px 0;
+}
+
+.game-room p {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.clue {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 25px;
+  box-shadow: 0 0 20px rgba(192, 132, 252, 0.2);
+}
+
+.answer {
+  padding: 12px;
+  width: 250px;
+  border: 2px solid #c084fc;
+  border-radius: 8px;
+  outline: none;
+  margin: 15px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #9333ea;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #c084fc;
+  transform: scale(1.05);
+}
